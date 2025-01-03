@@ -1,0 +1,58 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.39.0.0
+Copyright (C) 2023 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 3 Mathonix, 2, LIC=MPPLD-8A2S5-BSBYX-H24M3-LB2KY-M2EV1
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.39.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.39.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      CMSIS_AGDI.dll V1.33.16.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+E:\Desktop\25Champion\Sentry_Chassis\Sentry_Chassis\MDK-ARM\FJUT_RM2025.uvprojx
+Project File Date:  11/20/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'FJUT_RM2025'
+compiling chassis_behavior.c...
+..\LIB\APP\src\chassis_behavior.c(228): warning:  #550-D: variable "chassis_rudder_angle" was set but never used
+      static float32_t chassis_rudder_angle[2];       //??????目?杲嵌?
+..\LIB\APP\src\chassis_behavior.c(229): warning:  #550-D: variable "chassis_rudder_crtangle" was set but never used
+      static float32_t chassis_rudder_crtangle[2];    //?????值?前?嵌?
+..\LIB\APP\src\chassis_behavior.c(230): warning:  #177-D: variable "chassis_rudder_cvtangle" was declared but never referenced
+      static float32_t chassis_rudder_cvtangle[2];    //?????志徒?转??目?杲嵌?
+..\LIB\APP\src\chassis_behavior.c(324): warning:  #177-D: function "Chassis_Cali_Calc" was declared but never referenced
+  static void Chassis_Cali_Calc(Chassis_TypeDef* st_data)   //???叹?????值校准????
+..\LIB\APP\src\chassis_behavior.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=27322 RO-data=1390 RW-data=1888 ZI-data=19632  
+".\Objects\Templates.axf" - 0 Error(s), 4 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F4xx_DFP.2.17.1.pack
+                Keil::STM32F4xx_DFP@2.17.1
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  C:/Keil_v5/ARM/Pack/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

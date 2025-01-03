@@ -1,0 +1,101 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.39.0.0
+Copyright (C) 2023 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 3 Mathonix, 2, LIC=MPPLD-8A2S5-BSBYX-H24M3-LB2KY-M2EV1
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.39.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.39.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      CMSIS_AGDI.dll V1.33.16.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+E:\Desktop\25Champion\Sentry_Chassis\Timeline\Sentry_Chassis_FAULt\MDK-ARM\FJUT_RM2025.uvprojx
+Project File Date:  10/30/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'FJUT_RM2025'
+Note: source file '..\LIB\BSP\src\it.c' - object file renamed from '.\Objects\it.o' to '.\Objects\it_1.o'.
+compiling tim.c...
+compiling it.c...
+..\LIB\BSP\src\it.c(1): error: At end of source:  #65: expected a ";"
+..\LIB\BSP\src\it.c: 0 warnings, 1 error
+compiling dma.c...
+..\LIB\BSP\inc\dma.h(4): error:  #130: expected a "{"
+  void configDMA_Init(void);
+..\LIB\BSP\src\dma.c(107): warning:  #1-D: last line of file ends without a newline
+  //}
+..\LIB\BSP\src\dma.c(107): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+..\LIB\BSP\src\dma.c(107): error: At end of source:  #67: expected a "}"
+..\LIB\BSP\src\dma.c: 2 warnings, 2 errors
+compiling stm32f4xx_it.c...
+..\USER\stm32f4xx_it.c(64): error:  #130: expected a "{"
+  void HardFault_Handler(void)
+..\USER\stm32f4xx_it.c: 0 warnings, 1 error
+compiling nvic.c...
+..\LIB\BSP\src\nvic.c(3): error:  #130: expected a "{"
+  void configNVIC_Init(void)
+..\LIB\BSP\src\nvic.c(7): warning:  #1-D: last line of file ends without a newline
+  }
+..\LIB\BSP\src\nvic.c: 1 warning, 1 error
+compiling main.c...
+..\USER\main.c(16): error:  #130: expected a "{"
+  void BSP_Init()     
+..\USER\main.c(21): warning:  #1-D: last line of file ends without a newline
+  }
+..\USER\main.c: 1 warning, 1 error
+compiling io.c...
+..\LIB\BSP\inc\io.h(4): error:  #130: expected a "{"
+  void configIO_Init(void);
+..\LIB\BSP\src\io.c(4): warning:  #12-D: parsing restarts here after previous syntax error
+  {
+..\LIB\BSP\src\io.c: 1 warning, 1 error
+compiling can.c...
+..\LIB\BSP\inc\can.h(4): error:  #130: expected a "{"
+  void configCAN_Init(void);
+..\LIB\BSP\src\can.c(4): warning:  #12-D: parsing restarts here after previous syntax error
+  {
+..\LIB\BSP\src\can.c(67): warning:  #1-D: last line of file ends without a newline
+  }
+..\LIB\BSP\src\can.c: 2 warnings, 1 error
+compiling uart.c...
+..\LIB\BSP\inc\uart.h(5): error:  #130: expected a "{"
+  void configUART_Init(void);
+..\LIB\BSP\src\uart.c(4): warning:  #12-D: parsing restarts here after previous syntax error
+  {
+..\LIB\BSP\src\uart.c(98): warning:  #1-D: last line of file ends without a newline
+  }
+..\LIB\BSP\src\uart.c: 2 warnings, 1 error
+compiling it.c...
+..\LIB\BSP\src\it.c(1): error: At end of source:  #65: expected a ";"
+..\LIB\BSP\src\it.c: 0 warnings, 1 error
+".\Objects\Templates.axf" - 10 Error(s), 9 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F4xx_DFP.2.17.1.pack
+                Keil::STM32F4xx_DFP@2.17.1
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  C:/Keil_v5/ARM/Pack/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "main.h": "c",
+        "minipc.h": "c",
+        "user_task.h": "c",
+        "motor.h": "c",
+        "chassis_behavior.h": "c",
+        "hi219m.h": "c",
+        "rm_remote.h": "c",
+        "signal.h": "c",
+        "crc_check.h": "c",
+        "kalman.h": "c",
+        "arraylist.h": "c",
+        "pid.h": "c",
+        "vofa.h": "c"
+    }
+}
